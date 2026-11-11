@@ -1,0 +1,100 @@
+/* background n text */
+body{
+    background-color: #000000;
+    color: #f4f7ff;
+    font-family:sans-serif;
+    margin:0;
+    text-align: center;
+}
+
+
+header, footer{
+    background-color: #0a1730;
+    padding: 20px;
+}
+
+a{
+    color: #75b5ff;
+}
+
+.brand{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav{
+    margin-top: 12px;
+}
+
+nav a{
+    margin: 0 8px;
+}
+
+/* Welcome section */
+.hero{
+    background-color: #13356b;
+    padding: 35px 15px;
+}
+
+/* movie list & tix */
+.section{
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.movie, form, .summary{
+    background-color: #101621;
+    border: 1px solid #294d80;
+    border-radius: 6px;
+    padding: 18px;
+    margin: 16px 0;
+}
+
+.movie h3{
+    margin:0;
+}
+
+.details{
+    color: #c4d6ef;
+}
+
+.times a, .button, button{
+    display: inline-block;
+    background-color: #75b5ff;
+    color: #080f1c;
+    padding: 8px 12px;
+    margin: 4px;
+    border: 1px solid #75b5ff;
+    border-radius: 6px;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* button color changes */
+.times a:hover, .button:hover, button:hover{
+    background-color: #080f1c;
+    color: #75b5ff;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #4979b3;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.error{
+    color: #ffb4b6;
+}
